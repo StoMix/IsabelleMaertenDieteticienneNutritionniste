@@ -1,0 +1,75 @@
+
+html, body {
+    margin: 0%;
+    padding: 0%;
+}
+@media screen and (min-width: 480px){
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(214, 214, 214));
+    height: auto;
+    line-height: 60px;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    align-items: flex-end;
+}
+nav div {
+    margin-left: 25px;
+    margin-right: 25px;
+    width: auto;
+}
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.6rem;
+    width: auto;
+    height: auto;
+}
+nav a:hover {
+    color: rgb(185, 210, 83);
+    background-size: 100% 100%;
+    transform: scale(2);
+    width: auto;
+    
+}
+a {
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    text-decoration: none;
+    background: linear-gradient(to top, rgba(7, 7, 7, 0.5) 0%, rgba(0, 0, 0, 0.5) 10%, transparent 10.01%)no-repeat left bottom / 0 100%;
+    transition: background-size .3s;
+    width: auto;
+    height: auto;
+}
+footer {
+    text-align: center;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    background-image: linear-gradient(rgb(70, 70, 70), rgb(43, 43, 43));
+    color:white;
+    padding: 1%;
+    font-size: 1rem;
+    box-sizing: border-box;
+    width: auto;
+}
+.signature {
+    text-align: right;
+    font-size: 0.8rem;
+    width: auto;
+}
+.footera {
+    color: inherit;
+    width: auto;
+}
+.bouttonremonter:hover {
+   transform: scale(2);
+   width: auto;
+}
+.logo {
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: inherit;
+    align-content: flex-end;
+}

@@ -1,0 +1,69 @@
+h2 {
+   font-family: 'American Typewriter', serif;
+   border: 1px solid black;
+   padding: 12px 8px 6px 18px;
+   margin-bottom: 10px;
+   background-color: rgb(185, 210, 83);
+   text-align: center;
+}
+ 
+h5 {
+    font-family: 'American Typewriter', serif;
+    border: 1px solid black;
+    padding: 12px 8px 6px 18px;
+    margin-bottom: 10px;
+    background-color: rgb(185, 210, 83);
+    text-align: center;
+    font-size: 1.5rem;
+}
+ 
+#Remboursements {
+    font-size: 1.5rem;
+    background-color: rgba(143, 143, 143, 0.1);
+}
+.textetarif {
+   text-align: center;
+   padding: 12px 8px 6px 33px;
+   justify-content: space-between;
+}
+ 
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    align-content: center;
+    font-size: 1.5rem;
+    background-color: rgba(143, 143, 143, 0.1);
+}
+div {
+    margin: 10px;
+    width: 50%;
+}
+ #conteneur {
+     margin-left: auto;
+     margin-right: auto;
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+ }
+  .box2{
+    background-color: #EDE89A;
+  }
+  .box3{
+    background-color: #9EEBA1;
+  }
+ 
+  .shadow2,.shadow3 {
+      box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+      position: center;
+      height: 130px;
+      margin-top: 10%;
+      transition-duration: 0.5s;
+  }
+  .shadow2:hover,.shadow3:hover {
+transform: scale(1.05);
+transition-duration: 0.5s;
+}

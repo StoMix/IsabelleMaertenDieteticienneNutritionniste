@@ -1,0 +1,90 @@
+.hautdepagefraise {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+form {
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: bolder;
+}
+.contact {
+    font-size: 2.5rem;
+}
+.adresse {
+    font-size: 1.2rem;
+}
+button {
+    padding: 5px;
+    margin-top: 45px;
+    font-size: large;
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+button:hover {
+    transform: scale(1.05);
+    background-color: rgb(212, 212, 212);
+}
+form-row {
+    display: flex;
+}
+label {
+    font-size:25px;
+
+}
+Input{
+    font-size:20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    height: 50px;
+
+}
+textarea{
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    align-content: center;
+}
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: rgba(143, 143, 143, 0.1);
+}
+body {
+    background-position: center;
+    color: black;
+}
+a, .green {
+    color: rgb(185, 210, 83);
+}
+h3 {
+    color: grey;
+}
+.nocolor {
+    color : inherit;
+}
+.formulaire {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    justify-content: space-around;
+}
+.bulle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 1s;
+}
+.bulle:hover {
+    transform: scale(2);
+    transition-duration: 2s;
+}
+button a {
+    color: inherit;
+    color: black;
+}
